@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #ffffff;
+    --accent-color: #61dafb;
+    --background-dark: #121212;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --error-color: #ff4444;
+    --success-color: #00c851;
+}
+
+.data-container {
+    background-color: var(--background-dark);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 15px;
+}
+
+.metric-card {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+}
+
+.chart-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.data-table th {
+    background-color: var(--primary-color);
+    color: var(--text-primary);
+}
+
+.loading-spinner {
+    border: 4px solid var(--background-dark);
+    border-top: 4px solid var(--accent-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
