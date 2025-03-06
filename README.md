@@ -1,70 +1,78 @@
-# EnniXHub
+# Yenyx
 
 ## Overview
-EnniXHub is a minimalist, terminal-inspired interface for system monitoring and node management. The application features a sleek black and white design with a mysterious, hacker-like aesthetic.
+Yenyx is an advanced artificial intelligence network designed to provide intelligent solutions through distributed neural processing. By leveraging cutting-edge machine learning techniques and a unique network architecture, Yenyx offers powerful AI capabilities for a variety of applications.
 
 ## Features
-- **Terminal-Style Interface**: Command-line inspired UI with monochromatic design
-- **Process Initialization**: System initialization with visual progress tracking
-- **Node Management**: Add and monitor network nodes
-- **System Controls**: Lock/unlock functionality with status indicators
-- **Command History**: View all executed commands and system responses
+- **Distributed Intelligence**: Harness the power of networked AI nodes working in concert
+- **Adaptive Learning**: Self-optimizing algorithms that improve with usage
+- **Scalable Architecture**: Easily expand capabilities by adding nodes to the network
+- **Cross-Domain Knowledge**: Transfer learning across different problem domains
+- **Real-Time Processing**: Optimized for low-latency responses in critical applications
 
-## Usage
-1. **Initialize Process**: Click the Initialize button to start the system
-2. **Add Node**: Once unlocked, add network nodes to the system
-3. **Reset System**: Return to initial state with all processes terminated
-4. **System Settings**: Configure system parameters and access admin functions
+## Getting Started
 
-## Installation
+### Prerequisites
+- Python 3.8+
+- CUDA-compatible GPU (recommended)
+- Required dependencies (see `requirements.txt`)
+
+### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ennixhub.git
-
-# Navigate to the project directory
-cd ennixhub
+git clone https://github.com/yourusername/yenyx.git
+cd yenyx
 
 # Install dependencies
-npm install
+pip install -r requirements.txt
 
-# Start the application
-npm start
+# Set up the initial network
+python setup.py install
 ```
 
-## Technical Details
-EnniXHub is built with:
-- React for component-based architecture
-- Tailwind CSS for styling
-- Lucide for minimalist iconography
-- Custom terminal-inspired UI components
+### Basic Usage
+```python
+from yenyx import Network
 
-## Project Structure
+# Initialize a new Yenyx network
+network = Network(nodes=3, learning_rate=0.01)
+
+# Train the network
+network.train(dataset, epochs=50)
+
+# Make predictions
+predictions = network.predict(test_data)
 ```
-ennixhub/
-├── src/
-│   ├── components/
-│   │   ├── Terminal.jsx
-│   │   ├── CommandLine.jsx
-│   │   ├── ProcessBar.jsx
-│   │   └── SystemControls.jsx
-│   ├── App.jsx
-│   └── index.jsx
-├── public/
-│   └── index.html
-├── package.json
-├── LICENSE
-└── README.md
-```
+
+## Documentation
+Full documentation is available at [docs.yenyx.ai](https://docs.yenyx.ai).
+
+## Use Cases
+- Natural Language Processing
+- Computer Vision
+- Predictive Analytics
+- Autonomous Systems
+- Scientific Research
+- Decision Support Systems
 
 ## Contributing
-Contributions are welcome. Please feel free to submit a Pull Request.
+We welcome contributions to Yenyx! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to submit pull requests, report issues, and suggest improvements.
+
+## Roadmap
+- Enhanced multi-modal processing
+- Improved distributed learning algorithms
+- Interface for non-technical users
+- Specialized industry-specific models
+- Edge device deployment optimizations
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For inquiries or support, please contact: support@ennixhub.com
+- Website: [yenyx.ai](https://yenyx.ai)
+- Email: info@yenyx.ai
+- Twitter: [@YenyxAI](https://twitter.com/YenyxAI)
 
 ---
 
-© EnniXHub 2025. All rights reserved.
+© 2025 Yenyx AI
