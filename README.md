@@ -1,78 +1,103 @@
-# Yenyx
+# ymix_core AI System Demonstration
 
 ## Overview
-Yenyx is an advanced artificial intelligence network designed to provide intelligent solutions through distributed neural processing. By leveraging cutting-edge machine learning techniques and a unique network architecture, Yenyx offers powerful AI capabilities for a variety of applications.
+
+ymix_core is a terminal-style demonstration of an advanced AI system's capabilities. This project presents a simulated command-line interface showcasing various AI functionalities through an interactive or automated demo.
+
+![ymix_core Demo Screenshot](https://placeholder-image.com/ymix_core_demo.png)
 
 ## Features
-- **Distributed Intelligence**: Harness the power of networked AI nodes working in concert
-- **Adaptive Learning**: Self-optimizing algorithms that improve with usage
-- **Scalable Architecture**: Easily expand capabilities by adding nodes to the network
-- **Cross-Domain Knowledge**: Transfer learning across different problem domains
-- **Real-Time Processing**: Optimized for low-latency responses in critical applications
 
-## Getting Started
+- **Classic Terminal Interface**: Black and white command-line aesthetic with ASCII art
+- **Multiple AI Capabilities Showcased**:
+  - Natural Language Understanding
+  - Pattern Recognition & Prediction
+  - Multi-modal Processing
+  - Real-time Data Analysis
+  - Adaptive Learning
+- **Two Demo Modes**:
+  - Interactive Mode: Users type commands to explore the system
+  - Auto-Demo Mode: Hands-off demonstration that cycles through capabilities
 
-### Prerequisites
-- Python 3.8+
-- CUDA-compatible GPU (recommended)
-- Required dependencies (see `requirements.txt`)
+## Technical Implementation
 
-### Installation
+This demonstration is built using:
+- React.js for the interactive interface
+- Tailwind CSS for styling
+- Custom ASCII art renderings
+- Simulated loading/processing sequences
+
+## Installation
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yenyx.git
-cd yenyx
+git clone https://github.com/yourusername/ymix-core-demo.git
+
+# Navigate to the project directory
+cd ymix-core-demo
 
 # Install dependencies
-pip install -r requirements.txt
+npm install
 
-# Set up the initial network
-python setup.py install
+# Start the development server
+npm start
 ```
 
-### Basic Usage
-```python
-from yenyx import Network
+## Usage
 
-# Initialize a new Yenyx network
-network = Network(nodes=3, learning_rate=0.01)
+### Interactive Demo
 
-# Train the network
-network.train(dataset, epochs=50)
+The interactive demo allows users to type commands to explore different AI capabilities:
 
-# Make predictions
-predictions = network.predict(test_data)
-```
+1. Press any key at the title screen to begin
+2. Type `initiate demonstration sequence` to view capabilities
+3. Try the following commands to see different demos:
+   - `analyze sentiment in dataset alpha-7`
+   - `detect anomalies in network traffic log beta-12`
+   - `process manufacturing quality inspection data from plant C`
+   - `show learning progression on medical diagnosis dataset`
+4. Type `exit` to return to the beginning
 
-## Documentation
-Full documentation is available at [docs.yenyx.ai](https://docs.yenyx.ai).
+Type `help` at any time to see available commands.
 
-## Use Cases
-- Natural Language Processing
-- Computer Vision
-- Predictive Analytics
-- Autonomous Systems
-- Scientific Research
-- Decision Support Systems
+### Auto-Demo Mode
+
+The auto-demo mode runs through all capabilities without requiring user input. This is ideal for:
+- Trade show displays
+- Background visuals during presentations
+- Website demonstrations
+
+## Customization
+
+You can customize the demonstration by modifying:
+
+- `asciiLogo` constant to change the header graphic
+- Scene content in the `scenes` array to modify demonstrations
+- Timing parameters for auto-progression
+- Color scheme through Tailwind CSS classes
 
 ## Contributing
-We welcome contributions to Yenyx! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to submit pull requests, report issues, and suggest improvements.
 
-## Roadmap
-- Enhanced multi-modal processing
-- Improved distributed learning algorithms
-- Interface for non-technical users
-- Specialized industry-specific models
-- Edge device deployment optimizations
+Contributions to improve the ymix_core demonstration are welcome. Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to the branch (`git push origin feature/your-feature`)
+6. Open a Pull Request
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Inspired by classic command-line interfaces and cyberpunk aesthetics
+- Created as a demonstration of modern AI capabilities
+- ASCII art created using various online tools and custom designs
 
 ## Contact
-- Website: [yenyx.ai](https://yenyx.ai)
-- Email: info@yenyx.ai
-- Twitter: [@YenyxAI](https://twitter.com/YenyxAI)
 
----
-
-© 2025 Yenyx AI
+For questions, suggestions, or business inquiries about ymix_core:
+- Email: contact@ymix-ai.com
